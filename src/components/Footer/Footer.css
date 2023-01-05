@@ -1,0 +1,84 @@
+.footerCols {
+    display: flex;
+    gap: 192px;
+}
+.footerCols .footerAbout {
+    width: 474px;
+    min-width: 474px;
+    max-width: 474px;
+}
+.footerCols .footerSocial {
+    width: 174px;
+    min-width: 174px;
+    max-width: 174px;
+}
+.footerCols .footerPages {
+    width: 140px;
+    min-width: 140px;
+    max-width: 140px;
+}
+.footerSocial .socialList {
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.footerCols h3 {
+    margin: 0 0 24px;
+    font-size: 24px;
+    line-height: 26px;
+    color: #FEAF20;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.footerCols .footerPages .socialConnect {
+    padding: 0;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 16px;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footerSocial .socialList {
+    display: inline-block;
+    column-count: 2;
+    max-width: 78px;
+}
+.footerSocial .socialList button.socialConnect {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    font-size: 28px;
+    margin: 0px 16px 16px 0px;
+    background-color: transparent;
+}
+.footerCols .footerAbout p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 24px 0 0;
+}
+footer.footer {
+    padding: 100px 0;
+    border-top: 1px solid rgb(255 255 255 / 12%);
+    border-bottom: 1px solid #ffffff1f;
+}
+section.copyrightBar p, section.copyrightBar p a {
+    margin: 0;
+    color: #EEEEEE;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+section.copyrightBar {
+    padding: 26px 0 20.5px;
+}
+section.copyrightBar p a:hover{
+    color: #FEAF20;
+}

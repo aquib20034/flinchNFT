@@ -1,0 +1,20 @@
+.comingSoonSection{
+    background: url('../../assets/imgs/visit.gif');
+    background-size: cover;
+    margin-top: 100px;
+}
+.comingHeading{
+    height: 952px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comingHeading h2 {
+    font-size: 140px;
+    line-height: 116px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #865E17;
+    color: #FEAF20;
+    text-align: center;
+    text-shadow: 0 0 50px #00000080;
+}

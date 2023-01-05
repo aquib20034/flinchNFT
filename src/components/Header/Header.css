@@ -1,0 +1,101 @@
+.headerWrap {
+    display: flex;
+    justify-content: space-between;
+}
+.headerWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    border-bottom: 2px solid #fff3;
+}
+.logoWrap a {
+    display: inline-block;
+    width: 100%;
+}
+.logoWrap a img {
+    max-height: 32px;
+}
+.siteButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 217px;
+    height: 60px;
+    border: 3px solid #FEAF20;
+    filter: drop-shadow(0px 0px 24px #FEAF20);
+    border-radius: 8px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: uppercase;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    font-family: "Futura";
+    margin: 0 auto;
+    text-decoration: none;
+}
+.siteButton:hover, .siteButton:active {
+    background: #FEAF20;
+    -webkit-filter: drop-shadow(0px 0px 10px #FEAF20);
+    filter: drop-shadow(0px 0px 10px #FEAF20);
+}
+.siteButton.mintButton {
+    border: 3px solid #27fcfa;
+    filter: drop-shadow(0px 0px 24px #27fcfa);
+    width: 186px;
+    padding: 0;
+}
+.siteButton.mintButton:hover,
+.siteButton.mintButton:active{
+    background: #27fcfa;
+    -webkit-filter: drop-shadow(0px 0px 10px #27fcfa);
+    filter: drop-shadow(0px 0px 10px #27fcfa);
+}
+.navWrap button {
+    background: transparent;
+    color: #FEAF20;
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+.headerWrap .navWrap, .headerWrap .ctaWrap {
+    min-width: 217px;
+}
+.navWrap button:hover {
+    color: #fff;
+}
+.socialList {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    grid-gap: 22px;
+    gap: 22px;
+    margin-top: 20px;
+}
+.socialList button.socialConnect {
+    background: transparent;
+    border: none;
+    color: #27FCFA;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 30px;
+    width: 28px;
+    cursor: pointer;
+}
+/* .socialList button.socialConnect:nth-child(2) {
+    border-radius: 150px;
+    background: #27FCFA;
+    color: #0d1110;
+    height: 28px;
+    width: 42px;
+    font-size: 45px;
+} */

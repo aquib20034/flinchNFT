@@ -1,0 +1,209 @@
+section.mintingContent {
+    padding: 100px 0;
+    background: #00BBBC;
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+}
+.mintingContentArea h2 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+.mintingContentArea p {
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+.mintCalcSection{
+    background-image: url('../../assets/imgs/genesispass.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 176px 0;
+}
+.mintingBlock {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 703px;
+    background: radial-gradient(139.76% 301.04% at -3.41% -2.35%, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.79) 0.01%, rgba(0, 0, 0, 0.35) 100%);
+    mix-blend-mode: normal;
+    box-shadow: 0px 0px 19px 14px rgb(254 175 32 / 10%);
+    -webkit-backdrop-filter: blur(9px);
+    backdrop-filter: blur(9px);
+    margin: 0 auto;
+    margin-left: 149px;
+}
+.mintingBlock .mintThumb {
+    margin: 125px 0 auto -149px;
+    max-width: 304px;
+    max-height: 304px;
+}
+.mintingBlock .mintThumb img{
+    width: 100%;
+}
+.mintingBlock .mintCalculater {
+    max-width: 360px;
+    margin-left: 31px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mintingBlock .mintCalculater h2 {
+    color: #FEAF20;
+    margin-bottom: 49px;
+    font-family: "Futura";
+    font-style: normal;
+    font-size: 38px;
+    line-height: 36px;
+}
+form.FormMinting .fieldWrap {
+    display: flex;
+    max-width: 196px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+form.FormMinting .fieldWrap button.quantityButton {
+    border: 3px solid #FEAF20;
+    background: #feaf2033;
+    color: #FEAF20;
+    width: 42px;
+    height: 42px;
+    font-size: 30px;
+    padding: 0;
+    line-height: 0;
+    cursor: pointer;
+}
+form.FormMinting .fieldWrap input, form.FormMinting .fieldWrap input:focus {
+    background: transparent;
+    border: none;
+    text-align: center;
+    font-size: 32px;
+    width: 100%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    outline: none;
+}
+form.FormMinting .fieldWrap ~ span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 49px;
+    display: inline-block;
+}
+.mintingBlock .mintCalculater form.FormMinting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.totalCost {
+    border-top: 2px solid #fff3;
+    border-bottom: 2px solid #fff3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 49px;
+    gap: 0px 22px;
+}
+.totalCost > span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.totalCost h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FEAF20;
+}
+.totalCost h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FEAF20;
+    margin: 14px 0;
+}
+.totalCost h3 span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-left: 9px;
+    position: relative;
+    top: -4px;
+}
+.DescriptionMinting {
+    max-width: 651px;
+    margin: 50px auto 0;
+}
+.DescriptionMinting h4 {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #27FCFA;
+    margin: 0;
+}
+.DescriptionMinting p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 8px 0 32px;
+}
+.contractAddress {
+    border-top: 2px solid #fff3;
+    width: 100%;
+    padding: 26px 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+.contractAddress span{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #FEAF20;
+}
+.mintingBlock.rightAligned {
+    margin-right: 0;
+    margin-left: auto;
+}
+.mintCalcSection.CharacterMintSection{
+    background-image: url('../../assets/imgs/characterMintBg.jpg');
+}
+.mintCalcSection.WeaponMintSection{
+    background-image: url('../../assets/imgs/weaponMintBg.jpg');
+}

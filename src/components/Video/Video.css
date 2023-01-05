@@ -1,0 +1,65 @@
+.HeadingPattern {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../assets/imgs/headingpatterns.jpg');
+    background-size: contain;
+    height: 165px;
+    background-position: center;
+    box-shadow: 0px 0px 45px rgb(254 175 32 / 40%);
+}
+.HeadingPattern h2{
+    margin: 0;
+}
+.VideoContent {
+    border: 5.01px solid #fdae1e;
+    margin-bottom: 40px;
+}
+section.VideoSection p {
+    text-align: center;
+    color: #fff;
+    max-width: 1017px;
+    margin: 0 auto;
+}
+section.VideoSection {
+    padding: 58px 0 0;
+}
+section.featureFilm {
+    padding: 100px 0 160px;
+}
+.featureFilmContent {
+    max-width: 714px;
+    margin: 0 auto;
+}
+.featureFilmContent .featureFilmHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featureFilmContent .featureFilmHeader {
+    display: flex;
+    justify-content: space-between;
+}
+.featureFilmContent .featureFilmHeader h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+.featureFilmContent .featureFilmHeader .siteButton {
+    width: 199px;
+    padding: 0;
+    font-size: 26px;
+}
+
+.featureFilmContent .filmMintArea .notice {
+    height: 52px;
+    background: #27FCFA;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 32px 0 40px;
+    font-weight: 500;
+}

@@ -1,0 +1,22 @@
+.productBlock{
+    padding: 12.64px;
+    background: linear-gradient(135deg, rgba(254, 175, 32, 0) 0%, rgba(254, 175, 32, 0.3) 47.92%, rgba(254, 175, 32, 0) 100%);
+}
+.FlinchMerchContent h2 {
+    text-align: center;
+    color: #FEAF20;
+    margin-bottom: 64px;
+}
+.productGrid {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 88px;
+}
+.productBlock img {
+    width: 100%;
+}
+.FlinchMerchContent .siteButton.mintButton {
+    font-size: 26px;
+    width: 195px;
+    height: 68px;
+}

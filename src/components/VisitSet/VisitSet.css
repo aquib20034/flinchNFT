@@ -1,0 +1,43 @@
+.HeadingPattern.contentHeaderPattern .contentHeader {
+    min-width: 370px;
+}
+.visitSetSec .HeadingPattern.contentHeaderPattern {
+    justify-content: start;
+    padding: 0 44px;
+}
+.thumbnailCol {
+    border: 20px solid #000;
+    width: 532px;
+    height: 532px;
+}
+.thumbnailCol img{
+    width: 532px;
+    height: 532px;
+    object-fit: cover;
+}
+.contentGrid {
+    display: flex;
+    padding: 0 44px;
+    gap: 32px;
+}
+.thumbnailCol {
+    border: 20px solid #000;
+    width: 532px;
+    height: 532px;
+    margin-top: -140px;
+}
+.contentCol p {
+    font-size: 16px;
+    color: #fff;
+    margin: 30px 0 44px;
+}
+.contentCol .siteButton.mintButton {
+    margin-left: 0;
+    font-size: 26px;
+    height: 68px;
+    width: 241px;
+    font-weight: 700;
+}
+section.LandingSections {
+    padding: 61px 0 420px;
+}

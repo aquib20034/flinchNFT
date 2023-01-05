@@ -1,0 +1,56 @@
+section.TheCrewSection {
+    padding: 250px 0 100px;
+    text-align: center;
+}
+.TheCrewContent h2 {
+    color: #FEAF20;
+    margin-bottom: 64px;
+}
+.TheCrewGrid {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    max-width: 778px;
+    margin: 0 auto;
+}
+.CrewMember img {
+    border-radius: 100%;
+    margin-bottom: 48px;
+}
+.CrewMember span.crewDesignation {
+    font-size: 24px;
+    color: #feaf20;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.CrewMember h3 {
+    color: #fff;
+    font-size: 32px;
+    margin: 8px 0 16px;
+    line-height: 36px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.CrewMember p {
+    color: #fff;
+    max-width: 315px;
+    margin: 0 auto;
+}
+.CrewMember ul.CrewSocial,
+.CrewMember ul.CrewSocial li,
+.CrewMember ul.CrewSocial li a {
+    margin: 0;
+    padding: 0;
+    color: #FEAF20;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-size: 32px;
+}
+.CrewMember ul.CrewSocial li a{
+    margin-top: 24px;
+}

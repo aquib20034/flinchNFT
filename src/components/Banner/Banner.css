@@ -1,0 +1,129 @@
+section.bannerGrid .translatedGrid {
+    display: flex;
+    overflow: hidden;
+    background-color: #000;
+    max-width: 1900px;
+    margin: 20px auto 0;
+    justify-content: center;
+}
+section.bannerGrid .translatedGrid .translatedBlock {
+    max-height: 600px;
+    position: relative;
+    overflow: hidden;
+    width: 476px !important;
+    max-width: 476px !important;
+    min-width: 476px !important;
+}
+section.bannerGrid .translatedGrid .translatedBlock .gridImage {
+    width: 100%;
+    min-height: 600px;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+section.bannerGrid .translatedGrid .translatedBlock .gridButton {
+    border: none;
+    padding: 0;
+    background: transparent;
+    display: inline-block;
+    width: 100%;
+    overflow: visible;
+    cursor: pointer;
+}
+section.bannerGrid .translatedGrid .translatedBlock:nth-child(1) {
+    clip-path: polygon(0px 0, 100% 0%, 335px 100%, 0% 100%);
+    z-index: 4;
+    margin-right: -135px;
+}
+section.bannerGrid .translatedGrid .translatedBlock:nth-child(2) {
+    clip-path: polygon(145px 0, 100% 0%, 330px 100%, 0% 100%);
+    z-index: 3;
+    margin-right: -135px;
+}
+section.bannerGrid .translatedGrid .translatedBlock:nth-child(3) {
+    clip-path: polygon(145px 0, 100% 0%, 330px 100%, 0% 100%);
+    z-index: 2;
+    margin-right: -135px;
+}
+section.bannerGrid .translatedGrid .translatedBlock:nth-child(4) {
+    clip-path: polygon(145px 0, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 1;
+    margin-right: 0;
+}
+section.bannerGrid .translatedGrid .translatedBlock:nth-child(2), section.bannerGrid .translatedGrid .translatedBlock:nth-child(3) {
+    width: 678px !important;
+    max-width: 678px !important;
+    min-width: 678px !important;
+    clip-path: polygon(145px 0, 100% 0%, 536px 100%, 0% 100%);
+}
+section.bannerGrid .translatedGrid .translatedBlock img {
+    width: 100%;
+    min-height: 600px;
+    object-fit: cover;
+}
+section.bannerGrid .translatedGrid .translatedBlock .gridContent {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 0 23px 0;
+    bottom: 0;
+    height: 240px;
+    background: linear-gradient(180deg, rgba(254, 175, 32, 0) 0%, rgba(254, 175, 32, 0.8) 120%);
+    width: 384px;
+    transition: all 0.5s linear;
+}
+section.bannerGrid .translatedGrid .translatedBlock .gridContent h3 {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    font-family: "Futura";
+    text-transform: uppercase;
+    color: #000;
+}
+
+
+section.bannerGrid .translatedGrid .translatedBlock:nth-child(1) .gridContent {
+    width: 383px;
+    padding-right: 164px;
+}
+section.bannerGrid .translatedGrid .translatedBlock:nth-child(2) .gridContent {
+    width: 488px;
+    padding-right: 132px;
+    padding-left: 30px;
+}
+section.bannerGrid .translatedGrid .translatedBlock:nth-child(3) .gridContent {
+    width: 488px;
+    padding-left: 20px;
+    padding-right: 149px;
+}
+section.bannerGrid .translatedGrid .translatedBlock:nth-child(4) .gridContent {
+    width: 100%;
+    padding-left: 30px;
+}
+section.bannerGrid .translatedGrid .translatedBlock .gridButton:hover .gridContent{
+    bottom: -100%;
+}
+section.bannerGrid .translatedGrid .translatedBlock .gridButton:hover .gridImage{
+    opacity: 0;
+}
+section.bannerGrid .translatedGrid .translatedBlock .gridButton .gridGif img {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    object-fit: unset;
+    left: 0;
+    background: #000;
+    right: 0;
+    bottom: 0px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+section.bannerGrid .translatedGrid .translatedBlock .gridButton:hover .gridGif img{
+    opacity: 1;
+}

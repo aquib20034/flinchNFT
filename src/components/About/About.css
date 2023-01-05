@@ -1,0 +1,17 @@
+.AboutContent{
+    text-align: center;
+}
+.AboutContent h2 {
+    color: #FEAF20;
+}
+.aboutSection{
+    padding: 100px 0;
+}
+.AboutContent p {
+    color: #fff;
+}
+.AboutContent {
+    text-align: center;
+    max-width: 945px;
+    margin: 0 auto;
+}
