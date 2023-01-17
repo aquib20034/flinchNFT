@@ -13,6 +13,8 @@ import WalletConnectProvider from '@walletconnect/web3-provider';
 export const initialState = {
     // web3Modal:null,
     web3: null,
+    nft : false,
+    balance: 0,
     contract: null,
     accounts: [],
     web3LoadingErrorMessage: null
@@ -37,9 +39,22 @@ export const loadBlockchain = createAsyncThunk("loadBlockchain", async (_, thunk
             const web3      = new Web3(Web3.givenProvider);
             const contract  = new web3.eth.Contract(CONTRACT_ABI, CONTRACT_ADDRESS);
             const accounts  = await web3.eth.getAccounts();
-            // console.log(accounts);
+
+            console.log(accounts[0]);
+            // const adr  = accounts[0];
+
+            const adr  = "0xc6740736699209a730a7e5d9272a094dc3b7a703";
+            const balance = await contract.methods.balanceOf(adr).call()
+            console.log("balance",balance);
+            
+            let nft  = false;
+            if(balance > 0){
+                nft = true;
+            }
             return {
                 web3,
+                nft,
+                balance,
                 accounts,
                 contract
             }
@@ -152,6 +167,8 @@ const web3ConnectSlice = createSlice({
             { payload }
         ) => {
             state.web3 = payload?.web3;
+            state.nft = payload?.nft;
+            state.balance = payload?.balance;
             state.contract = payload?.contract;
             state.accounts = payload?.accounts;
             state.web3LoadingErrorMessage = payload?.web3LoadingErrorMessage;
